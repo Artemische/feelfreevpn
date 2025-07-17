@@ -32,7 +32,7 @@ export default function RootLayout({
         <Header />
         {children}
         <footer className="pt-16 pb-8">
-        <div className="w-full flex justify-center gap-8 text-xl">
+        <div className="w-full flex justify-center gap-4 md:gap-8 text-xl">
           <span>Terms of use</span>
           <span>•</span>
           <span>Privacy policy</span>

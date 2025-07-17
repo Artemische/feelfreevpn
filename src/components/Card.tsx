@@ -12,7 +12,7 @@ const Card: React.FC<CardProps> = ({ imgSrc, imgAlt = '', title, description }) 
   return (
     <div className="flex shadow-md rounded-lg overflow-hidden w-full max-w-xl">
       <div className="flex-shrink-0">
-        <img src={imgSrc} alt={imgAlt} className="h-32 w-32 object-cover" />
+        <img src={imgSrc} alt={imgAlt} className="h-16 w-16 md:h-32 md:w-32 object-cover" />
       </div>
       <div className="flex flex-col justify-start p-4">
         <h3 className="text-2xl font-semibold mb-2">{title}</h3>
